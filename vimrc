@@ -35,6 +35,9 @@ set nolangremap
 
 set nobackup	" do not keep a backup file, use versions instead
 
+" Reload a file when it has been changed outside of vim
+set autoread
+
 " Enable the use of mouse
 set mouse=a
 
