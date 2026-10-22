@@ -51,6 +51,10 @@ set ignorecase
 " Do not ignore case when the search pattern contains upper case characters
 set smartcase
 
+" Dealing with long lines
+set wrap
+set linebreak
+
 " Don't use Q for Ex mode, use it for formatting.  Except for Select mode.
 map Q gq
 
