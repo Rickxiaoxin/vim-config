@@ -129,13 +129,13 @@ filetype plugin indent on
 syntax enable
 
 " ALE configuration
+set omnifunc=ale#completion#OmniFunc
 let g:ale_linters = {
   \ 'python': ['pyright', 'ruff'],
 \ }
 let g:ale_fixers = {
   \ 'python': ['ruff_format'],
 \ }
-let g:ale_completion_enabled = 1
 let g:ale_python_auto_uv = 1
 let g:ale_python_pyright_executable = 'basedpyright-langserver'
 let g:ale_python_pyright_use_global = 1
