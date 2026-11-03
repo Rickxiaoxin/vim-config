@@ -1,2 +1,5 @@
 # Downloaded plugins by vim-plug
 /plugged
+
+# Netrw history
+.netrwhist
