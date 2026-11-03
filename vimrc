@@ -118,7 +118,8 @@ packadd! matchit
 call plug#begin()
 
 Plug 'dense-analysis/ale'
-Plug 'preservim/nerdtree'
+" Use netrw instead of nerdtree
+" Plug 'preservim/nerdtree'
 
 call plug#end()
 
