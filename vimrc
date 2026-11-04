@@ -118,8 +118,11 @@ packadd! matchit
 call plug#begin()
 
 Plug 'dense-analysis/ale'
+
 " Use netrw instead of nerdtree
 " Plug 'preservim/nerdtree'
+
+Plug 'morhetz/gruvbox'
 
 call plug#end()
 
@@ -128,6 +131,10 @@ filetype plugin indent on
 
 " Switch syntax highlighting on 
 syntax enable
+
+" Colorscheme
+set background=dark
+colorscheme gruvbox
 
 " ALE configuration
 set omnifunc=ale#completion#OmniFunc
