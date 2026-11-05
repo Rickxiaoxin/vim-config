@@ -144,9 +144,7 @@ let g:ale_linters = {
 let g:ale_fixers = {
   \ 'python': ['ruff_format'],
 \ }
-let g:ale_python_auto_uv = 1
 let g:ale_python_pyright_executable = 'basedpyright-langserver'
-let g:ale_python_pyright_use_global = 1
 let g:ale_python_ruff_executable = 'ruff'
 let g:ale_python_ruff_use_global = 1
 let g:ale_python_ruff_format_executable = 'ruff'
