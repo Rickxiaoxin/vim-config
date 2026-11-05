@@ -149,3 +149,7 @@ let g:ale_python_ruff_executable = 'ruff'
 let g:ale_python_ruff_use_global = 1
 let g:ale_python_ruff_format_executable = 'ruff'
 let g:ale_python_ruff_format_use_global = 1
+
+" ALE keymaps
+map gh <Plug>(ale_hover)
+
