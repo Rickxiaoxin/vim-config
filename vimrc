@@ -146,7 +146,7 @@ let g:ale_linters = {
   \ 'python': ['pyright', 'ruff'],
 \ }
 let g:ale_fixers = {
-  \ 'python': ['ruff_format'],
+  \ 'python': ['ruff', 'ruff_format'],
 \ }
 let g:ale_python_pyright_executable = 'basedpyright-langserver'
 let g:ale_python_ruff_executable = 'ruff'
