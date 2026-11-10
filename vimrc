@@ -155,5 +155,9 @@ let g:ale_python_ruff_format_executable = 'ruff'
 let g:ale_python_ruff_format_use_global = 1
 
 " ALE keymaps
-map gh <Plug>(ale_hover)
+nmap <Leader>K <Plug>(ale_hover)
+nmap <Leader>gd <Plug>(ale_go_to_definition)
 
+" Fzf keymaps
+nmap <Leader>ff <Cmd>Files<CR>
+nmap <Leader>/  <Cmd>Rg<CR>
