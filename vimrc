@@ -156,7 +156,7 @@ let g:ale_python_ruff_format_use_global = 1
 
 " ALE keymaps
 nmap <Leader>K <Plug>(ale_hover)
-nmap <Leader>gd <Plug>(ale_go_to_definition)
+nmap <Leader><C-]> <Plug>(ale_go_to_definition)
 
 " Fzf keymaps
 nmap <Leader>ff <Cmd>Files<CR>
