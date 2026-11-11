@@ -153,6 +153,7 @@ let g:ale_python_ruff_executable = 'ruff'
 let g:ale_python_ruff_use_global = 1
 let g:ale_python_ruff_format_executable = 'ruff'
 let g:ale_python_ruff_format_use_global = 1
+let g:ale_fix_on_save = 1
 
 " ALE keymaps
 nmap <Leader>K <Plug>(ale_hover)
