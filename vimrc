@@ -55,8 +55,14 @@ set smartcase
 set wrap
 set linebreak
 
+" Raise a dialog when certain operations fail, e.g. ":q"
+set confirm
+
 " Don't use Q for Ex mode, use it for formatting.  Except for Select mode.
 map Q gq
+
+" Using <Esc> to cancel highlight
+nmap <Esc> <Cmd>nohlsearch<CR>
 
 " CTRL-U in insert mode deletes a lot.  Use CTRL-G u to first break undo,
 " so that you can undo CTRL-U after inserting a line break.
